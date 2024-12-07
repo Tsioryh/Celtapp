@@ -2,7 +2,11 @@
   "dependencies": {
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/stack": "^6.4.1",
-    "expo": "^51.0.32",
-    "react-native-paper": "^5.12.5"
+    "expo": "^52.0.0",
+    "react-native-paper": "^5.12.5",
+    "typescript": "^5.3.3",
+    "@types/react": "~18.3.12",
+    "react-native": "0.76.3",
+    "react": "18.3.1"
   }
 }

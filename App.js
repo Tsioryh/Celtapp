@@ -6,8 +6,9 @@ import LoginScreen from './LoginScreen';
 import HomeScreen from './HomeScreen'; 
 const Stack = createStackNavigator();
 
-const App = () => {
-  return (
+const App = () => { 
+  
+  return ( 
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={LoginScreen} />
