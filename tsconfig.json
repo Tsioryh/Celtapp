@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "target": "esnext", // Permet de générer un code compatible avec les dernières versions de JavaScript
-    "module": "esnext", // Utilise le système de module ES
-    "strict": true, // Active des vérifications strictes de TypeScript
-    "jsx": "react", // Spécifie que JSX est utilisé avec React
-    "moduleResolution": "node", // Configure la résolution des modules pour Node.js
-    "allowSyntheticDefaultImports": true, // Autorise les importations par défaut synthétiques
-    "esModuleInterop": true, // Améliore la compatibilité avec les modules CommonJS
-    "skipLibCheck": true, // Ignore la vérification des types dans les fichiers de définition
-    "baseUrl": ".", // Définit le répertoire racine pour les chemins relatifs
+    "target": "esnext",
+    "module": "esnext", 
+    "strict": true, 
+    "jsx": "react", 
+    "moduleResolution": "node", 
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "baseUrl": ".", 
     "paths": {
-      "@/*": ["src/*"] // Configure les alias pour simplifier les imports
+      "@/*": ["src/*"] 
     }
   },
-  "extends": "expo/tsconfig.base", // Étend la configuration par défaut d'Expo
-  "include": ["src"], // Indique les fichiers à inclure dans la compilation
-  "exclude": ["node_modules"] // Exclut les dossiers inutiles
+  "extends": "expo/tsconfig.base", 
+  "include": ["src"], 
+  "exclude": ["node_modules"] 
 }

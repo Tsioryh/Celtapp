@@ -9,10 +9,8 @@ const LoginScreen = () => {
   const navigation = useNavigation();
 
   const handleLogin = () => {
-    // Ajoutez ici la logique de connexion
     console.log('Email:', email);
     console.log('Password:', password);
-    // Redirigez vers une autre page après connexion réussie
     navigation.navigate('Home');
   };
 
